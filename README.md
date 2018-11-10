@@ -5,6 +5,9 @@
 
 爬取套图: https://gitee.com/52itstyle/Python/blob/master/Day01/
 
+## Day02
+
+操作数据库: https://gitee.com/52itstyle/Python/blob/master/Day02/
 
 ## 参考学习
 
