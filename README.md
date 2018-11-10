@@ -5,4 +5,4 @@
 
 ## Day01
 
-爬取套图:
+爬取套图: https://gitee.com/52itstyle/Python/blob/master/Day01/
