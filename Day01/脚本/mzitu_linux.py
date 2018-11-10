@@ -101,4 +101,5 @@ def main():
         download(page, file)
 
 
-main()
+if __name__ == '__main__':
+    main()
