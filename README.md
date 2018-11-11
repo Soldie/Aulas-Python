@@ -1,4 +1,5 @@
 ## 项目介绍
+
 告诉全世界，我要学Python
 
 ## Day01
@@ -8,6 +9,10 @@
 ## Day02
 
 操作数据库: https://gitee.com/52itstyle/Python/blob/master/Day02/
+
+## Day03
+
+爬取小说: https://gitee.com/52itstyle/Python/blob/master/Day03/
 
 ## 参考学习
 
