@@ -1,0 +1,1 @@
+解决方案：右击pycharm中项目名-->Mark Directory as -->Resource root
