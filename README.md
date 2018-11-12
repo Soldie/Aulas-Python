@@ -20,6 +20,10 @@
 
 爬取小说: https://gitee.com/52itstyle/Python/blob/master/Day03/
 
+## Day04
+
+爬取小说存入数据库: https://gitee.com/52itstyle/Python/blob/master/Day04/
+
 
 ## 参考学习
 
