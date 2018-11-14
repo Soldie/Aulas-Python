@@ -59,6 +59,8 @@ DATABASES = {
 
 ```
 pip3 install mysqlclient-1.3.13-cp37-cp37m-win_amd64.whl
+# 同时安装
+pip install pymysql
 ```
 
 如果出现以下说明安装成功：
