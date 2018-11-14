@@ -54,4 +54,6 @@ https://gitee.com/52itstyle/Python/blob/master/Day04/
 
 https://www.python.org/
 
+https://docs.djangoproject.com/
+
 http://www.runoob.com/python3/python3-tutorial.html
