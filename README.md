@@ -40,6 +40,10 @@
 
 https://gitee.com/52itstyle/Python/blob/master/Day04/
 
+## Day06
+
+一个简单的小说 Web 文章: https://gitee.com/52itstyle/Python/blob/master/Day06/
+
 
 ## 参考学习
 
