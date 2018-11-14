@@ -26,3 +26,32 @@ python manage.py runserver 8001
 python manage.py runserver 8002
 ```
 
+## 项目结构
+
+win下使用命令 tree /F > 项目结构图.txt ，如下：
+
+
+```
+│  manage.py
+│  
+├─novel
+│  │  settings.py # 基础配置
+│  │  urls.py     # URL映射
+│  │  wsgi.py
+│  │  __init__.py
+│  │  
+│          
+├─templates # 相关页面
+│      novel.html # 章节
+│      novel_list.html # 小说首页
+│      
+├─utils
+│  │  dbMysqlConfig.cnf # 数据库配置参数
+│  │  encoder.py # 编码类
+│  │  mysql_DBUtils.py # 数据库连接池
+│          
+└─view
+    │  index.py   # 后台业务        
+
+```
+
