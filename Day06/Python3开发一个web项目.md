@@ -12,7 +12,7 @@ cd itstyle
 python manage.py startapp novel
 ```
 
-一般一个项目有多个app, 当然通用的app也可以在多个项目中使用。然后启动服务：
+一般一个项目有多个app, 当然通用的app也可以在多个项目中使用，然后启动服务：
 
 ```
 # 默认端口是8000
