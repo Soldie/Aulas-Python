@@ -57,6 +57,7 @@ win下使用命令 tree /F > 项目结构图.txt ，如下：
 
 ## 要点备注
 
+
 ### RESTful 风格
 
 控制器
@@ -89,3 +90,14 @@ def chapter(request, novel_id):
     return render(request, 'novel.html', context)
 ```
 
+### 列表展示
+
+
+基于后端返回的数据，在前台进行展示，这里你可以把它想象成Java中的Struts2标签或者JSTL标签，当然也有点Vue的意思：
+
+```
+{% for novel in novel_list %}
+    <a href="/chapter/{{novel.id}} "><li>{{ novel.title }}</li></a>
+
+{% endfor %}
+```
