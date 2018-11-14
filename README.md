@@ -3,11 +3,11 @@
 告诉全世界，我要学Python
 
 
-| 软件 | 版本  | 
-| ---- | ----- |
-|   Python   |  3.7.1 |    
-|   Django   | 2.1.3 |   
-|   PyCharm| 2018.2.4 |
+| 软件 | 版本  | 功能|   地址|
+| ---- | ----- |----- |----- |
+|   Python   |  3.7.1 |  脚本语言   | https://www.python.org/  |
+|   Django   | 2.1.3 |   Web框架|  https://www.djangoproject.com/ |
+|   PyCharm| 2018.2.4 |  可视化开发工具| http://www.jetbrains.com/pycharm/  |
 
 ## 相关类库
 
@@ -55,5 +55,7 @@ https://gitee.com/52itstyle/Python/blob/master/Day04/
 https://www.python.org/
 
 https://docs.djangoproject.com/
+
+http://www.jetbrains.com/pycharm/
 
 http://www.runoob.com/python3/python3-tutorial.html
