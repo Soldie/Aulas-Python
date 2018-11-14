@@ -7,8 +7,13 @@
 | ---- | ----- |
 |   Python   |  3.7.1 |    
 |   Django   | 2.1.3 |   
+|   PyCharm| 2018.2.4 |
 
+## 相关类库
 
+不定期更新：
+
+![输入图片说明](https://images.gitee.com/uploads/images/2018/1114/184831_f2aa9fb6_87650.png "类库.png")
 
 ## 欢迎关注
 
