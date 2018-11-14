@@ -10,7 +10,9 @@
 |   PyCharm| 2018.2.4 |  可视化开发工具| http://www.jetbrains.com/pycharm/  |
 
 
-环境搭建说明：http://www.runoob.com/python3/python3-install.html
+环境搭建说明：
+
+http://www.runoob.com/python3/python3-install.html
 
 ## 相关类库
 
@@ -41,11 +43,11 @@
 
 ### Day05
 
-- 中文编码问题
-- json.dumps中的参数
-- Django切换MySQL数据库
+- [中文编码问题](https://gitee.com/52itstyle/Python/blob/master/Day05/%E4%BB%8A%E5%A4%A9%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E9%97%AE%E9%A2%98.md)
+- [json.dumps中的参数](https://gitee.com/52itstyle/Python/blob/master/Day05/%E5%85%B3%E4%BA%8Ejson.dumps%E4%B8%AD%E7%9A%84%E5%8F%82%E6%95%B0%E8%AF%A6%E8%A7%A3.md)
+- [Django切换MySQL数据库](https://gitee.com/52itstyle/Python/blob/master/Day05/Django%E5%88%87%E6%8D%A2MySQL%E6%95%B0%E6%8D%AE%E5%BA%93.md)
 
-https://gitee.com/52itstyle/Python/blob/master/Day04/
+https://gitee.com/52itstyle/Python/blob/master/Day05/
 
 ### Day06
 
