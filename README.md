@@ -32,6 +32,14 @@
 
 爬取小说存入数据库: https://gitee.com/52itstyle/Python/blob/master/Day04/
 
+## Day05
+
+- 中文编码问题
+- json.dumps中的参数
+- Django切换MySQL数据库
+
+https://gitee.com/52itstyle/Python/blob/master/Day04/
+
 
 ## 参考学习
 
