@@ -53,6 +53,9 @@ https://gitee.com/52itstyle/Python/blob/master/Day05/
 
 一个简单的小说 Web 网站: https://gitee.com/52itstyle/Python/blob/master/Day06/
 
+### Day07
+
+日志框架: https://gitee.com/52itstyle/Python/blob/master/Day07/
 
 ## 欢迎关注
 
