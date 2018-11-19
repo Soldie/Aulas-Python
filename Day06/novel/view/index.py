@@ -24,7 +24,7 @@ def main(request):
 #     return render(request, 'novel.html', context)
 
 '''
-单个章节访问
+单个章节
 此处 novel_id 对应 urls.py 中的 <int:novel_id>
 你可以访问：http://localhost:8000/chapter/1/
 '''
