@@ -1,4 +1,16 @@
-## 安装
+## 简介
+
+- pymysql：纯Python实现的一个驱动。因为是纯Python编写的，因此执行效率不如MySQL-python。并且也因为是纯Python编写的，因此可以和Python代码无缝衔接。
+
+- MySQL Connector/Python：MySQL官方推出的使用纯Python连接MySQL的驱动。因为是纯Python开发的，效率不高。
+
+
+- MySQL-python：也就是MySQLdb。是对C语言操作MySQL数据库的一个简单封装。遵循了Python DB API v2。但是只支持Python2，目前还不支持Python3。
+
+- mysqlclient：是MySQL-python的另外一个分支。支持Python3并且修复了一些bug。
+
+
+## PyMySQL
 
 Python3 MySQL 数据库连接 - PyMySQL 驱动
 
@@ -9,7 +21,7 @@ PyMySQL 是在 Python3.x 版本中用于连接 MySQL 服务器的一个库，Pyt
 pip3 install PyMySQL
 ```
 
-## 案例
+### 案例
 
 这里以查询秒杀商品数据为例：
 
@@ -38,7 +50,7 @@ db.close()
 
 ----------------------------------------------------------------------------------
 
-## 安装
+## mysql-connector
 
 mysql-connector 是 MySQL 官方提供的驱动器。
 
@@ -49,7 +61,7 @@ mysql-connector 是 MySQL 官方提供的驱动器。
 pip3 install  mysql-connector
 ```
 
-## 案例
+### 案例
 
 这里以查询秒杀商品数据为例：
 
