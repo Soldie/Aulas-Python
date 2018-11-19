@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
-import pymysql, os, configparser
+import pymysql
+import os
+import configparser
 from pymysql.cursors import DictCursor
 from DBUtils.PooledDB import PooledDB
 
@@ -10,10 +12,10 @@ class Config(object):
     # Config().get_content("user_information")
     配置文件里面的参数
     [dbMysql]
-    host = 192.168.1.101
+    host = 192.168.1.180
     port = 3306
     user = root
-    password = python123
+    password = 123456
     """
 
     def __init__(self, config_filename="dbMysqlConfig.cnf"):
@@ -76,9 +78,10 @@ class MyPymysqlPool(BasePymysqlPool):
                               user=self.user,
                               passwd=self.password,
                               db=self.db,
-                              use_unicode=False,
+                              use_unicode=True,
                               charset="utf8",
                               cursorclass=DictCursor)
+            print("12211212")
         return __pool.connection()
 
     def getAll(self, sql, param=None):
@@ -211,3 +214,4 @@ if __name__ == '__main__':
     print(result)
     # 释放资源
     mysql.dispose()
+

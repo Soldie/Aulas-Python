@@ -10,10 +10,10 @@ class Config(object):
     # Config().get_content("user_information")
     配置文件里面的参数
     [dbMysql]
-    host = 192.168.1.101
+    host = 192.168.1.80
     port = 3306
     user = root
-    password = python123
+    password = 123456
     """
 
     def __init__(self, config_filename="dbMysqlConfig.cnf"):
@@ -76,7 +76,7 @@ class MyPymysqlPool(BasePymysqlPool):
                               user=self.user,
                               passwd=self.password,
                               db=self.db,
-                              use_unicode=False,
+                              use_unicode=True,
                               charset="utf8",
                               cursorclass=DictCursor)
         return __pool.connection()
@@ -204,12 +204,12 @@ class MyPymysqlPool(BasePymysqlPool):
         self._conn.close()
 
 
+mysql = MyPymysqlPool("dbMysql")
+
 if __name__ == '__main__':
-    # import sys
-    # print(sys.getdefaultencoding())
-    mysql = MyPymysqlPool("dbMysql")
     sqlAll = "select id, title from novel limit 2;"
     result = mysql.getAll(sqlAll)
     print(result)
     # 释放资源
     mysql.dispose()
+
