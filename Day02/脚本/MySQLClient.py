@@ -6,6 +6,7 @@ cursor = db.cursor()
 
 # 使用 execute()  方法执行 SQL 查询
 cursor.execute("SELECT * FROM seckill")
+
 # 使用 fetchall() 方法获取s所有数据.
 data = cursor.fetchall()
 print(data)
