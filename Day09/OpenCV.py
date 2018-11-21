@@ -2,7 +2,7 @@
 # 导入cv模块
 import cv2 as cv
 """
-安装一下模块
+安装以下模块
 pip install --upgrade setuptools
 pip install numpy Matplotlib
 pip install opencv-python
