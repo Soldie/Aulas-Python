@@ -117,7 +117,9 @@ manage.py runserver
 ```
 访问 http://localhost:8000/admin/ 输入设定的帐号和密码，我们添加两篇新闻。
 
+![输入图片说明](https://images.gitee.com/uploads/images/2018/1121/132951_73c1f2fd_87650.png "news.png")
 
+![输入图片说明](https://images.gitee.com/uploads/images/2018/1121/133001_8d52623b_87650.png "news1.png")
 
 ## 小结
 
