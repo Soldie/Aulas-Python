@@ -1,12 +1,15 @@
 # coding: utf-8
 from __future__ import unicode_literals
 from wxpy import *
+import sys
 
-bot = Bot('bot.pkl')
-bot.groups
-# my_friend = bot.friends().search('小柒2012')[0]
-# my_friend.send('Hello WeChat!')
-print(bot.groups())
-my_group = bot.groups().search('Python学习小组')[0]
-my_group.send('Python 监控报警')
+# 日志告警这里有三个参数 %{type} %{path} %{message}"
+if len(sys.argv) == 4:
+    bot = Bot('bot.pkl')
+    # my_friend = bot.friends().search('小柒2012')[0]
+    # my_friend.send('Hello WeChat!')
+    # print(bot.groups())
+    alarm_group = bot.groups().search('监控报警')[0]
+    message = "项目名：{type}, 日志路径 {path}，详细信息 {message}".format(type=sys.argv[1], path=sys.argv[2], message=sys.argv[3])
+    alarm_group.send(message)
 
