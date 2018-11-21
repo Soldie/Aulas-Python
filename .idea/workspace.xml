@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f955df12-ecd1-40c5-97d8-de606a3eb73f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day06/novel/novel/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06/novel/view/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day08/wechat_argv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/OpenCV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_frontalcatface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_frontalcatface_extended.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_frontalface_alt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_frontalface_alt2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_fullbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_lefteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_lowerbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_profileface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_righteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_russian_plate_number.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_smile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/haarcascade_upperbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/people.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09/xiaojiejie.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/itstyle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/itstyle/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/itstyle/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/itstyle/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/itstyle/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06/novel/novel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day06/novel/novel/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08/sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day08/sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/itstyle/Python3+Django2配置后台管理.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +22,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="94" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="Python" value="94" />
           <entry key="XML" value="1" />
         </counts>
@@ -155,11 +114,6 @@
               <item name="python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -168,6 +122,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python3\Day10" />
       <recent name="E:\python3\Day06\novel\novel" />
       <recent name="E:\python3\Day09" />
     </key>
@@ -581,6 +536,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="76" selection-start-line="76" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/Python3+Django2配置后台管理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
