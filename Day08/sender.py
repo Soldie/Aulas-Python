@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from wxpy import *
 import sys
 
-# 日志告警这里有三个参数 %{type} %{path} %{message}"
+# 日志告警这里有三个参数 %{type} %{path} %{message}，可根据自己的日志自行配置参数
 if len(sys.argv) == 4:
     bot = Bot('bot.pkl')
     # my_friend = bot.friends().search('小柒2012')[0]
