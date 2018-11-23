@@ -68,6 +68,22 @@ http://www.runoob.com/python3/python3-install.html
 
 Django后台: https://gitee.com/52itstyle/Python/blob/master/Day10/
 
+
+### Day11
+
+链家数据: https://gitee.com/52itstyle/Python/blob/master/Day11/
+
+### Day12
+
+OpenCV识别答题卡: https://gitee.com/52itstyle/Python/blob/master/Day12/
+
+
+### Day13
+
+生成识别二维码: https://gitee.com/52itstyle/Python/blob/master/Day13/
+
+
+
 ## 欢迎关注
 
 一个有温度的微信公众号，期待与你共同进步，分享美文，分享各种Java学习资源
