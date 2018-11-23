@@ -19,6 +19,7 @@ http://www.runoob.com/python3/python3-install.html
 
 不定期更新
 
+
 ### Day01
 
 爬取套图: https://gitee.com/52itstyle/Python/blob/master/Day01/
@@ -41,27 +42,23 @@ http://www.runoob.com/python3/python3-install.html
 
 ### Day06
 
-一个简单的小说 Web 网站: https://gitee.com/52itstyle/Python/blob/master/Day06/
+小说网站雏形: https://gitee.com/52itstyle/Python/blob/master/Day06/
 
 ### Day07
 
 日志框架: https://gitee.com/52itstyle/Python/blob/master/Day07/
 
-
 ### Day08
 
 微信监控: https://gitee.com/52itstyle/Python/blob/master/Day08/
-
 
 ### Day09
 
 人脸识别: https://gitee.com/52itstyle/Python/blob/master/Day09/
 
-
 ### Day10
 
 Django后台: https://gitee.com/52itstyle/Python/blob/master/Day10/
-
 
 ### Day11
 
@@ -75,7 +72,6 @@ OpenCV识别答题卡: https://gitee.com/52itstyle/Python/blob/master/Day12/
 ### Day13
 
 生成识别二维码: https://gitee.com/52itstyle/Python/blob/master/Day13/
-
 
 
 ## 欢迎关注
