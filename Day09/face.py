@@ -124,9 +124,9 @@ if __name__ == '__main__':
     else:
         print('视频图像中无人！！')
 
-    drawFaces('people.jpg')
-    saveFaces('people.jpg')
-    drawSmiles('people.jpg')    # 极其不准确
+    drawFaces('/img/people.jpg')
+    # saveFaces('img/people.jpg')
+    # drawSmiles('img/people.jpg')    # 极其不准确
     # drawEyes('people.jpg')    # 有问题报错
 
 

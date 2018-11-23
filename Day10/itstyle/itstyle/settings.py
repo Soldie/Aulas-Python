@@ -25,7 +25,7 @@ SECRET_KEY = 'nvd5fg5x5_p!(x#p+n-z1&k6v0rcvtv@h%r(#c(rv4b)$w+%ox'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,12 +76,14 @@ WSGI_APPLICATION = 'itstyle.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'itstyle',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'POST': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'itstyle',
+        # 'USER': 'root',
+        # 'PASSWORD': '123456',
+        # 'HOST': '127.0.0.1',
+        # 'POST': '3306',
     }
 }
 
@@ -108,9 +110,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -123,3 +127,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 部署外网-静态映射
+# STATIC_ROOT = '/www/news/static/'

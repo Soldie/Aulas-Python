@@ -4,6 +4,7 @@ import sys
 import importlib
 importlib.reload(sys)
 
+
 def CatchUsbVideo(window_name, camera_idx):
     cv2.namedWindow(window_name)
     # 视频来源，可以来自一段已存好的视频，也可以直接来自USB摄像头
