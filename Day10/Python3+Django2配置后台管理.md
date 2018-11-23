@@ -124,3 +124,6 @@ manage.py runserver
 ## 小结
 
 总的来说 Django 作为简单的后台CURD管理还是非常方便的，虽然界面简陋的一点，但是对于要求不高的站点还是挺不错的。
+
+
+地址：https://blog.52itstyle.com/archives/3497/
