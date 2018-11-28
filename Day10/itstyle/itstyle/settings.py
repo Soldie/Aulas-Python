@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'nvd5fg5x5_p!(x#p+n-z1&k6v0rcvtv@h%r(#c(rv4b)$w+%ox'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'news.middleware.SimpleMiddleware', # 拦截器
 ]
 
 ROOT_URLCONF = 'itstyle.urls'
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'itstyle.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR + "/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,5 +129,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),  # 注意括号后面的还有个逗号
+)
+
 # 部署外网-静态映射
 # STATIC_ROOT = '/www/news/static/'
+
+# URL
+APPEND_SLASH = False
+

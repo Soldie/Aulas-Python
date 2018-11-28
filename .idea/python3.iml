@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Day06" />
       <excludeFolder url="file://$MODULE_DIR$/Day08" />
+      <excludeFolder url="file://$MODULE_DIR$/Day10" />
       <excludeFolder url="file://$MODULE_DIR$/Day11" />
     </content>
     <orderEntry type="inheritedJdk" />

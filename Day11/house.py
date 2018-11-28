@@ -20,7 +20,6 @@ def write_db(param):
         sql = sql + "VALUES(%(url)s,%(housing_estate)s, %(position)s,%(square_metre)s,"
         sql = sql + "%(unit_price)s,%(total_price)s,%(follow)s,%(take_look)s,%(pub_date)s)"
         mysql.insert(sql, param)
-        mysql.end("commit")
     except Exception as e:
         print(e)
 
@@ -64,20 +63,25 @@ def main():
                 house_param['follow'] = re.sub("\D", "", follow[0])
                 house_param['take_look'] = re.sub("\D", "", follow[1])
                 # --------------------------------------------------------#
+                # 二手房地址
                 title_src = li.find('div', class_='title').find('a').attrs['href']
                 house_param['url'] = re.sub("\D", "", title_src)
-                print(house_param['url'])
                 res = requests.get(title_src, headers=headers)
                 soup = BeautifulSoup(res.text, 'html.parser')
+                # --------------------------------------------------------#
                 # 挂牌时间(重要数据)
                 pub_date = soup.find('div', class_='transaction').find_all('li')[0].find_all('span')[1].text
                 house_param['pub_date'] = pub_date
                 write_db(house_param)
             except Exception as e:
                 print(e)
+        mysql.end("commit")
     mysql.dispose()
 
 
 if __name__ == '__main__':
     main()
+
+
+
 

@@ -15,7 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from news import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', views.index),
+    path('admin', admin.site.urls),
+    path('getNew', views.get_new),
+    path('getNews/<int:news_id>', views.get_news),
+    path('searchPost', views.search_post),
 ]
+
+# 定义错误跳转页面
+handler403 = views.permission_denied
+handler404 = views.page_not_found
+handler500 = views.page_error
