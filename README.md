@@ -81,6 +81,9 @@ OpenCV识别答题卡: https://gitee.com/52itstyle/Python/blob/master/Day12/
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0809/181043_76e4d5b8_87650.png "1234.png")
 
 
+##  淘宝镜像
+
+https://npm.taobao.org/
 
 ## 参考学习
 
