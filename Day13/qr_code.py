@@ -1,12 +1,12 @@
 # -*- coding:utf-8 -*-
 import os
-import qrcode
 import time
 from PIL import Image
 from pyzbar import pyzbar
 
 """
-pip install qrcode
+pip install -U pip
+pip install Pillow
 pip install pyzbar
 """
 
@@ -124,13 +124,17 @@ if __name__ == "__main__":
     #     print(results[0].data.decode("utf-8"))
     # else:
     #     print("Can not recognize.")
+
     # 识别答题卡二维码 16 识别失败
     t1 = time.time()
+    count = 0
     for i in range(1, 33):
         results = decode_qr_code(os.getcwd()+"\\img\\"+str(i)+".png")
         if len(results):
             print(results[0].data.decode("utf-8"))
         else:
             print("Can not recognize.")
+            count += 1
     t2 = time.time()
-    print(int(round(t2 * 1000))-int(round(t1 * 1000)))
+    print("识别失败数量:" + str(count))
+    print("测试时间:" + str(int(round(t2 * 1000))-int(round(t1 * 1000))))
