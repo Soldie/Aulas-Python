@@ -9,6 +9,9 @@
 |   Django   | 2.1.3 |   Web框架|  https://www.djangoproject.com/ |
 |   PyCharm| 2018.2.4 |  可视化开发工具| http://www.jetbrains.com/pycharm/  |
 
+环境搭建说明：
+
+http://www.runoob.com/python3/python3-install.html
 
 ## 软件配置
 
@@ -24,9 +27,6 @@ https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0221/223908_71fd84bb_87650.png "1111.png")
 
-环境搭建说明：
-
-http://www.runoob.com/python3/python3-install.html
 
 #### Git
 
