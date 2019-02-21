@@ -28,6 +28,15 @@ https://pypi.tuna.tsinghua.edu.cn/simple/
 
 http://www.runoob.com/python3/python3-install.html
 
+#### Git
+
+v2.20.1 (2019-01-01)
+
+- 64-bit Git for Windows Setup : https://npm.taobao.org/mirrors/git-for-windows/v2.20.1.windows.1/Git-2.20.1-64-bit.exe
+- 64-bit Git for Windows Portable : https://npm.taobao.org/mirrors/git-for-windows/v2.20.1.windows.1/PortableGit-2.20.1-64-bit.7z.exe
+
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0221/224242_a415c6ee_87650.png "222.png")
 
 ## 案例
 
