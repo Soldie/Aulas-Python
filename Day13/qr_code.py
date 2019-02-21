@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 import os
+import qrcode
 import time
 from PIL import Image
 from pyzbar import pyzbar
@@ -8,6 +9,7 @@ from pyzbar import pyzbar
 pip install -U pip
 pip install Pillow
 pip install pyzbar
+pip install qrcode
 """
 
 
@@ -103,7 +105,7 @@ if __name__ == "__main__":
 
     # # 简易版
     # make_qr_code_easy("make_qr_code_easy", "make_qr_code_easy.png")
-    # results = decode_qr_code("11.png")
+    # results = decode_qr_code("make_qr_code_easy.png")
     # if len(results):
     #     print(results[0].data.decode("utf-8"))
     # else:
@@ -111,15 +113,15 @@ if __name__ == "__main__":
     #
     # # 参数版
     # make_qr_code("make_qr_code", "make_qr_code.png")
-    # results = decode_qr_code("11.png")
+    # results = decode_qr_code("make_qr_code.png")
     # if len(results):
     #     print(results[0].data.decode("utf-8"))
     # else:
     #     print("Can not recognize.")
     #
-    # # 带中间 logo 的
-    # make_qr_code_with_icon("https://blog.52itstyle.com/", "icon.jpg", "make_qr_code_with_icon.png")
-    # results = decode_qr_code("temp2.jpg")
+    # 带中间 logo 的
+    # make_qr_code_with_icon("https://blog.52itstyle.vip", "icon.jpg", "make_qr_code_with_icon.png")
+    # results = decode_qr_code("make_qr_code_with_icon.png")
     # if len(results):
     #     print(results[0].data.decode("utf-8"))
     # else:
