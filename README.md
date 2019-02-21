@@ -10,6 +10,20 @@
 |   PyCharm| 2018.2.4 |  可视化开发工具| http://www.jetbrains.com/pycharm/  |
 
 
+## 软件配置
+
+#### PyCharm
+
+新增一个 Python 项目，File->Settings->project interperter 配置 pip 源 为
+
+
+```
+# 总之快，很快，非常快
+https://pypi.tuna.tsinghua.edu.cn/simple/
+```
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0221/223908_71fd84bb_87650.png "1111.png")
+
 环境搭建说明：
 
 http://www.runoob.com/python3/python3-install.html
