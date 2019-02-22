@@ -25,7 +25,11 @@ http://www.runoob.com/python3/python3-install.html
 https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0221/223908_71fd84bb_87650.png "1111.png")
+![PIP国内源](https://images.gitee.com/uploads/images/2019/0221/223908_71fd84bb_87650.png "1111.png")
+
+最佳字体：
+
+![最佳字体](https://images.gitee.com/uploads/images/2019/0222/212701_4413976c_87650.png "最佳字体.png")
 
 
 #### Git
